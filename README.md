@@ -2,6 +2,10 @@
 
 This repo demonstrates the [ProTI](https://proti-iac.github.io) automated testing tool on the Random Word Webpage (RWW). RWW is a simple static website deployed in an AWS S3 bucket, displaying a word randomly selected from an array. [`index.ts`](index.ts) implements its deployment in Pulumi TypeScript, which, unfortunately, has a bug that we are going to find with ProTI.
 
+You can watch the demonstration on YouTube by clicking on this image and experience it by following along or continuing to read this tutorial.
+
+[<img src="https://i.ytimg.com/vi/e-FlGcOs8PI/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=e-FlGcOs8PI "Demonstration Recording on YouTube")
+
 ## Setup
 
 To follow this demo, you require an installation of NodeJS with NPM and Pulumi. If you want to run the deployment – not only test it with ProTI – you also need the AWS CLI and be logged into an AWS account with permission to manage the used S3 resources. We used and verified this demo with NodeJS 18.16.0, NPM 9.5.1, Pulumi 3.101.1, and AWS CLI 2.15.3, but more recent versions should work, too.
